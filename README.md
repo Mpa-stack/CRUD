@@ -17,6 +17,26 @@ This project is a simple Angular 17 CRUD application that demonstrates:
 
 ---
 
+## 📸 Screenshots
+
+### Home Page
+![Home Page] <img width="1919" height="1003" alt="Screenshot 2025-07-17 143453" src="https://github.com/user-attachments/assets/62450534-1ac7-443e-bb01-495ee664c01e" />
+
+
+### Posts List
+![Posts List] <img width="1919" height="973" alt="Screenshot 2025-07-17 143509" src="https://github.com/user-attachments/assets/a46bc611-3840-4057-bb60-a4ecc6cb799d" />
+
+
+### Post Detail
+![Post Detail] <img width="1919" height="1002" alt="Screenshot 2025-07-17 143738" src="https://github.com/user-attachments/assets/ade7c1d3-6548-4b40-a10f-f59a296205c8" />
+
+
+### Create New Post
+![Create New Post] <img width="1919" height="1002" alt="Screenshot 2025-07-17 143527" src="https://github.com/user-attachments/assets/5f52313f-5536-4a52-b352-81837301c4fb" />
+
+
+---
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -45,5 +65,5 @@ src/app/
 │
 ├── app.routes.ts             # Routing configuration
 ├── app.config.ts             # Application configuration
-├── app.ts                    # Root App component
+└── app.ts                    # Root App component
 ```
