@@ -1,0 +1,7 @@
+<h2>Create New Post</h2>
+<form (ngSubmit) ="createPost()">
+  <input [(ngModel)]="title" name="title" placeholder="Title" required />
+  <textarea [(ngModel)]="body" name="body" placeholder="Body" required></textarea>
+  <input [(ngModel)]="userId" name="userId" placeholder="User Id" required />
+  <button type="submit">Create</button>
+</form>

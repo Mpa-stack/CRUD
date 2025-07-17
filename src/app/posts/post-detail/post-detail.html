@@ -1,0 +1,7 @@
+<h2>Post Detail</h2>
+<p><input [(ngModel)]="post.title" placeholder="Title" /></p>
+<p><textarea [(ngModel)]="post.body" placeholder="Body"></textarea></p>
+
+<button (click) ="updateFullPost()">Update Full Post (PUT)</button>
+<button (click) ="patchPost()">Patch Title Only (PATCH)</button>
+<button (click) ="deletePost()">Delete Post</button>

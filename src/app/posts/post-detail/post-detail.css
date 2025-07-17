@@ -1,0 +1,52 @@
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+p {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #333;
+  transition: background-color 0.3s ease;
+}
+
+button:nth-child(1) {
+  background-color: #28a745;
+}
+
+button:nth-child(2) {
+  background-color: #ffc107;
+  color: black;
+}
+
+button:nth-child(3) {
+  background-color: #dc3545;
+}
+
+button:hover {
+  opacity: 0.85;
+}
